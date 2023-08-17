@@ -1,0 +1,10 @@
+numpy==1.19.5
+scikit-learn==0.24.2
+scikit-image==0.18.3
+easyocr==1.4
+opencv-python==4.5.3.56
+Pillow==8.2.0
+pytesseract==0.3.8
+matplotlib==3.4.3
+
+visit https://www.kaggle.com/datasets/crawford/emnist for the dataset
