@@ -88,7 +88,6 @@ class DrawingApp:
     def predict(self):
         preprocessed_image = self.preprocess_image(self.image)
         
-        # Adj hozzá egy dimenziót a batch_size-hez
         input_image = torch.tensor(preprocessed_image, dtype=torch.float32).unsqueeze(0)
 
         with torch.no_grad():
